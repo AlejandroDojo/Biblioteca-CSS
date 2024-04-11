@@ -10,3 +10,12 @@
     width: 1200px;
     margin: 0 auto;
 }
+.btn {
+    font-size: 20px;
+    color: white;
+    background-color:dodgerblue;
+    font-style: normal;
+    border: 2px solid black;
+    padding: 10px 40px;
+    box-shadow: 5px 6px black;
+}
