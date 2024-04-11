@@ -10,6 +10,7 @@
     width: 1200px;
     margin: 0 auto;
 }
+  /* Boton de la asignacion BUTTON */
 .btn {
     font-size: 20px;
     color: white;
@@ -20,6 +21,7 @@
     box-shadow: 5px 6px black;
 }
 
+  /* Boton de la asignacion Columnas FLEXIBLES */
 .row {
     display: flex;
     align-items: center;
@@ -43,4 +45,108 @@
 
 .col-3 {
     flex: 3;
+}
+
+  /* Nav de la tarea NAV FLEXIBLE */
+.nav  {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color: rgb(59, 59, 59);
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.nav-title {
+    margin: 10px;
+    color: white;
+}
+.nav-links {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+    gap: 2rem;
+    padding: 0;
+}
+.nav-links a {
+    color: rgb(160, 157, 157);
+    text-decoration: none;
+}
+.nav-links .active {
+    color: white;
+}
+/* USER CARD */
+h1 {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+h2 {
+    font-size: 1rem;
+}
+.user {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.user-card {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 0;
+    border: 2px solid rgb(189, 189, 189);
+    position: relative;
+}
+.user-background {
+    height: 80px;
+    width: 100%;
+    background-color: rgb(14, 146, 163);
+}
+.user-description {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 0.5rem;
+    padding: 1rem;
+    padding-left: 2rem;
+}
+.user-description h1{
+    margin-top: 2.6rem;
+    margin-bottom: 0.5rem;
+}
+
+.user-icon {
+    position: absolute;
+    top: 9%;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    filter: invert(100%);
+    border: 3px solid rgb(241, 231, 231);
+}
+.user-map, .user-edit {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 2px;
+    gap: 10px;
+    margin: 0.6rem 0 0.6rem 0;
+}
+.user-icon {
+    width: 6%;
+}
+.user-gear {
+    color: rgb(27, 89, 224);
+    text-decoration: underline;
+}
+.user-edit img:hover, .user-gear:hover{
+    cursor: pointer;
+}
+.user-section p {
+    margin: 7px 0 7px 0;
 }
